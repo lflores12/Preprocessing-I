@@ -141,6 +141,7 @@ body {
 }
 p {
   font-size: 1.8rem;
+  line-height: 2rem;
 }
 h1,
 h2,
@@ -173,7 +174,7 @@ header a {
   margin-bottom: 20px;
 }
 .intro h1 {
-  font-size: 4.5rem;
+  font-size: 6rem;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -190,4 +191,28 @@ header a {
   background: gray;
   border: gray;
   color: white;
+}
+.middle-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.middle-content .listen-up {
+  width: 48.5%;
+}
+.middle-content .skill-list {
+  font-size: 1.8rem;
+  width: 48.5%;
+}
+.middle-content .skill-list ul {
+  margin: 10px;
+}
+.middle-content .skill-list ul li {
+  padding: 10px 0 10px 15px;
+  border: 1px solid gray;
+}
+.middle-content h1 {
+  font-size: 4rem;
+  padding-bottom: 10px;
 }
