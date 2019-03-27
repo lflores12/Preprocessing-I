@@ -206,11 +206,13 @@ header a {
   width: 48.5%;
 }
 .middle-content .skill-list ul {
-  margin: 10px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 .middle-content .skill-list ul li {
-  padding: 10px 0 10px 15px;
-  border: 1px solid gray;
+  padding: 15px 0 15px 10px;
+  border-bottom: 1px solid gray;
 }
 .middle-content h1 {
   font-size: 4rem;
